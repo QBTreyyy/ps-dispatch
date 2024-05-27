@@ -1,4 +1,3 @@
-client_script 'hunk.lua'
 fx_version 'cerulean'
 game 'gta5'
 
