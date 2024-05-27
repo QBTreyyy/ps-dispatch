@@ -1,5 +1,7 @@
 # ps-dispatch reskin 4.0 inspired
 
+reskinned for Ghosted RP now public for everyone to enjoy   
+
 ![psdispatchreskin](https://github.com/QBTreyyy/ps-dispatch/assets/99930941/d7d79e23-1749-41e5-be17-df64c975c378)
 ![disp2](https://github.com/QBTreyyy/ps-dispatch/assets/99930941/62c33427-e8c2-4ad2-82bd-68ac2b60c446)
 
