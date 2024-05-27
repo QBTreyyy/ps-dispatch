@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body { overflow: hidden; font-style: normal; font-weight: 600; font-family: Arial, Helvetica, sans-serif; font-variant: small-caps; }
+::-webkit-scrollbar { width: 0px; }
+.dispatch-container { width: 100%; height: 100%; position: absolute; display: flex; }
+.dispatch-holder { width: 50vh; height: 87.5vh; margin: 9.75vh 0vh auto auto; display: flex; flex-direction: column; overflow-y: scroll; }
+.dispatch-item {background-image: url("https://cdn.discordapp.com/attachments/1021510724754878484/1043206485620043777/imageedit_6_2893157692.png");background-size: 28px;background-repeat: no-repeat;background-position: right 2% bottom 92%;margin: 0vh 1vh 0.5vh auto;min-width: 45.5vh;width: fit-content;height: fit-content;border-radius: 6px;}
+.dispatch-item-true {/* background-color: #fb5764; */background: radial-gradient(ellipse at center bottom, #fb576574 -10%, rgba(171, 91, 110, 0.391) 90%), #271f2bee;font-family: Arial, Helvetica, sans-serif;font-variant: small-caps;}
+.dispatch-item-false { background-color: rgba(119, 20, 20, 0.91); border-right: 0.75vh solid rgb(255, 0, 0); }
+.dispatch-item-officer { background-color: rgb(97, 3, 11); }
+.top-info-holder {width: 95%;height: fit-content;margin-right: unset;margin-bottom: unset;margin-top: 0.75vh;margin-left: 0.75vh;align-items: center;display: flex;flex-direction: row-reverse;color: white;font-size: 1vh;font-weight: 700;white-space: nowrap;}
+.call-id {/* background-color: rgb(147, 241, 103); */padding: 0.35vh 1vh 0.4vh;margin: auto 0.4vh auto 0vh;border-radius: 3px;border: 1px solid #fb5764;text-align: center;/* color: black; */font-weight: 150;}
+.call-code {/* background-color: rgb(9, 124, 149); */border-radius: 3px;border: 1px solid #fb5764;padding: 0.35vh 1vh 0.4vh;margin: auto 0.5vh auto 0vh;/* border-radius: 1vh; */text-align: center;}
+.call-name { margin: auto auto auto 0vh; border-radius: 1vh; text-align: left; font-size: 1.7vh; overflow: hidden; text-overflow: ellipsis; }
+.bottom-info-holder { -webkit-text-stroke: 0.01mm black; width: 95%; height: fit-content; margin: 0.75vh auto 0.6vh; align-items: center; display: flex; flex-direction: column; color: white; font-size: 1.2vh; font-weight: bold; white-space: nowrap; text-align: left; }
+.call-bottom-info { margin: auto auto 0.5vh 0vh; text-align: left; white-space: normal; }
+.line {background-color: rgb(171, 91, 110);height: 0.05vh;width: 100%;margin-top: 0.1vh;margin-bottom: 0.1vh;}
+.call-bottom-information { margin-top: 0.5vh; }
+.fas { margin-right: 0.5vh; }
+.fab { margin-right: 0.5vh; }
+.far { margin-right: 0.5vh; }
+.fab { margin-right: 0.5vh; }
+.priority-1 { background: linear-gradient(270deg, rgb(183, 0, 0), rgb(10, 36, 176)) 0% 0% / 400% 400% rgba(9, 123, 149, 0); animation: 3s ease 0s infinite normal none running gradient; }
+.priority-2 {/* background-color: rgb(247, 151, 88); *//* color: black; */font-weight: 150;}
+@keyframes gradient { 
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
